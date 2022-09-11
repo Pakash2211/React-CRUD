@@ -6,7 +6,7 @@
 
 ## Features :
 
- <p>--> Create-Product</p>
+ <p>--> Create product</p>
  <p>--> Edit & Update product</p>
  <p>--> Delete product</p>
  <p>--> View product</p>
