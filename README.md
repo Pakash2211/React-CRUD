@@ -1,7 +1,7 @@
 # React-CRUD
 
 
-<h2>A Solo project built by me within 3 hours.</h2>
+<h3>A Solo project built by me within 3 hours.</h3>
 <br>
 
 ## Features :
