@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.produts{
+  width:100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap:10px 5px;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+ img {
+  width:100%;
+}
+.btngroup > button{
+  border:2px solid black;
+  padding: 2px 4px;
+  color:white;
+  background-color: black;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+.btngroup{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.productinv{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin: auto;
+  box-shadow: rgb(0, 0, 0) 0px 1px 4px;
+  cursor: pointer;
+  width:20%;
+  padding: 4px;
+}
+.productinv > button,.btn{
+  border:2px solid black;
+  padding: 4px;
+  color:white;
+  background-color: black;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+.productedit{
+  width:50%;
+  margin:auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.productedit > div{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.productedit > div > div{
+  color:red;
+  margin-right: 10px;
+}
+.productedit > div > input{
+ border:1px solid grey;
+ padding: 4px;
+ border-radius: 10px;
+
+}
